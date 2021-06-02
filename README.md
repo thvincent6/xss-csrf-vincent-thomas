@@ -25,20 +25,27 @@ touch reponses-nom-prenom.md
 ```
 
 ## Partie 1 - XSS - 13 points
-### Level 1 : 5 points
 
 Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et creez vous un compte.
 Pour se creer un compte entrer juste un user, votre prenom de preference.
 
-Commencez par le niveau 1 : 
+### Level 1 : 2 points
 
-1. Injecter dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. (1 point)
-2. Pourquoi la balise script ne fonctionne pas ?(2 points) (regarder comment les donnes en base sont récupérées sur la page)(1 point)
-3. Essayer de faire une Injection XSS qui bloque totalement le bon fonctionnement du site ils y a plusieurs réponse possible. (3points)
+Commencez par le niveau 1 : 
+1. Essayer d'injecter du code sans passer par un formulaire.  2 point 
+
+### Level 2 : 7 points
+1. Injecter dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. 1 point
+2. Pourquoi la balise script ne fonctionne pas ? 2 points 
+3. Comment les donnes en base sont récupérées sur la page 1 point
+4. Essayer de faire une Injection XSS qui bloque totalement le bon fonctionnement du site ils y a plusieurs réponse possible. 3 points
+5. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible essayer de le faire de facon invisible  2 points
+
+
 
 (Ecrire dans le compte rendu le script injecté)
 
-### Level 2 : 4 points
+
 
 1. Essayer d'injecter du code sans passer par un formulaire.  1 point 
 1. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible, essayer de la camoufler 3 points
