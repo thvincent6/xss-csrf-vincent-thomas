@@ -26,20 +26,20 @@ touch reponses-nom-prenom.md
 
 ## Partie 1 - XSS - 13 points
 
-Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et créez vous un compte.
-Pour se créer un compte : entrez juste un user, votre prenom de preference.
+Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et créez vous un compte. 
+Pour se créer un compte : entrez un user, votre prenom de preference pour la correction.
 
 ### Level 1 : 2 points
 
 Commencez par le niveau 1 : 
-1. Essayer d'injecter du code sans passer par un formulaire.  2 point 
+1. Essayez d'injecter du code sans passer par un formulaire.  2 points
 
 ### Level 2 : 7 points
-1. Injecter dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. 1 point
+1. Injectez dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. 1 point
 2. Pourquoi la balise script ne fonctionne pas ? 2 points 
-3. Comment les donnes en base sont récupérées sur la page 1 point
-4. Essayer de faire une Injection XSS qui bloque totalement le bon fonctionnement du site ils y a plusieurs réponse possible. 3 points
-5. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible essayer de le faire de facon invisible  2 points
+3. Comment les donnees en base sont récupérées sur la page ? 1 point
+4. Essayez de faire une injection XSS qui bloque totalement le bon fonctionnement du site il y a plusieurs réponses possibles. 3 points
+5. Essayez de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible. Essayez de le faire de facon invisible  2 points
 (Ecrire dans le compte rendu le script injecté)
 
 ### Level 3 : 4 points
@@ -62,7 +62,7 @@ git push heroku main
 Demandez a votre binôme de créer un article sur l'application (cf. level 1)
 
 1. Avoir un site heroku fonctionnel. 2 points
-2. Monter une attaque CSRF grâce à un formulaire. hint : https://xss-csrf-tp.herokuapp.com/articles/delete 2 points
+2. Montez une attaque CSRF grâce à un formulaire. hint : https://xss-csrf-tp.herokuapp.com/articles/delete 2 points
 Envoyez le lien de ce site malveillant à votre binôme et vérifiez que l'article qu'il a crée est supprimé.
 4. Avoir une redirection visible c'est pas très "propre" comme attaque.
 Faites donc en sorte de masquer cette attaque pour qu'elle soit invisible à l'utilisateur. 3 points
