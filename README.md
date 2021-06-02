@@ -11,9 +11,9 @@ Pour réaliser ce tp, il vous est demandé de forker ce repository dans votre es
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/57868321/120502142-780b2480-c3c2-11eb-9b45-9bfcf2790067.png">
 
 C'est dans ce nouveau repo que vous travaillerez. 
-C'est également le lien de ce nouveau repo que vous devrez nous renvoyer pour être corrigé.
-Merci de bien penser à laisser le repo en public sinon nous ne pourrons vous corriger.
-Merci de renommer le projet comme suit : `xss-csrf-nom-prenom`
+C'est également le lien de ce nouveau repo que vous devrez nous renvoyer pour être corrigé. 
+Merci de bien penser à laisser le repo en public sinon nous ne pourrons vous corriger. 
+Merci de renommer le projet comme suit : `xss-csrf-nom-prenom` 
 
 Ce repository est composé :
  - d'un README, votre guideline et sujet de TP.
