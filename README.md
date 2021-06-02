@@ -28,6 +28,8 @@ touch reponses-nom-prenom.md
 ### Level 1 : 5 points
 
 Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et creez vous un compte.
+Pour se creer un compte entrer juste un user, votre prenom de preference.
+
 Commencez par le niveau 1 : 
 
 1. Injecter dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. (1 point)
@@ -39,7 +41,7 @@ Commencez par le niveau 1 :
 ### Level 2 : 4 points
 
 1. Essayer d'injecter du code sans passer par un formulaire.  1 point 
-1. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible, essayer de la camoufler  3 points
+1. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible, essayer de la camoufler 3 points
 
 ### Level 3 : 4 points
 
