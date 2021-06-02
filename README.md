@@ -45,7 +45,7 @@ Commencez par le niveau 1 :
 ### Level 3 : 4 points
 
 1. Rusez pour bypass le sanitizer 2 points
-
+2. Faire un keylogger simple en js qui appelle le lien sur heroku  2 points
 ## Partie 2 - CSRF - 7 points
 
 Trouvez un binôme de travail. Vous allez respectivement vous attaquer l'un l'autre.
