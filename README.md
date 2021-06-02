@@ -63,7 +63,7 @@ Demandez a votre binôme de créer un article sur l'application (cf. level 1)
 
 1. Avoir un site heroku fonctionnel. 2 points
 2. Monter une attaque CSRF grâce à un formulaire. hint : https://xss-csrf-tp.herokuapp.com/articles/delete 2 points
-Envoyer le lien de ce site malveillant a votre binome et verifier que l'article au'il a cree est supprime.
+Envoyez le lien de ce site malveillant à votre binôme et vérifiez que l'article qu'il a crée est supprimé.
 4. Avoir une redirection visible c'est pas très "propre" comme attaque.
 Faites donc en sorte de masquer cette attaque pour qu'elle soit invisible à l'utilisateur. 3 points
 
