@@ -1,5 +1,5 @@
 # TP XSS CSRF
-Organisateurs : Restoy Esteban, Janvier Victor, Coutard Antoine et Demourgues Lise.
+Organisateurs : Restoy Esteban, Janvier Victor, Coutard Antoine et Demourgues Lise. 
 Le cours est disponible ici : https://xsslearner.herokuapp.com/
 
 Prérequis :
