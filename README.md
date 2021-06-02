@@ -27,13 +27,12 @@ touch reponses-nom-prenom.md
 ## Partie 1 - XSS - 13 points
 ### Level 1 : 5 points
 
-//to do ecrire le sujet
 Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et creez vous un compte.
 Commencez par le niveau 1 : 
 
-1.Injecter dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. (1 point)
-2.Pourquoi la balise script ne fonctionne pas ?(2 points) (regarder comment les donnes en base sont récupérées sur la page)(1 point)
-3.Essayer de faire une Injection XSS qui bloque totalement le bon fonctionnement du site ils y a plusieurs réponse possible. (3points)
+1. Injecter dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. (1 point)
+2. Pourquoi la balise script ne fonctionne pas ?(2 points) (regarder comment les donnes en base sont récupérées sur la page)(1 point)
+3. Essayer de faire une Injection XSS qui bloque totalement le bon fonctionnement du site ils y a plusieurs réponse possible. (3points)
 
 (Ecrire dans le compte rendu le script injecté)
 
