@@ -29,7 +29,7 @@ git add .
 git commit -m "deploy to heroku"
 heroku login 
 heroku apps:create my-malicious-website-<nom> exemple my-malicious-website-restoy
-git push heroku master
+git push heroku main
 ```
 ### Level 1 : 5 points
 
@@ -64,7 +64,7 @@ git add .
 git commit -m “deploying on heroku” 
 heroku login 
 heroku apps:create my-malicious-website-<nom> exemple my-malicious-website-restoy
-git push heroku master
+git push heroku main
 ```
 
 N'oubliez pas d'insérer des données à chaque fois pour que vous puissiez voir si votre attaque fonctionne car la route que vous allez appeler ne fais que reset la base de donnée à l'état d'origine.
