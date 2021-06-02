@@ -65,9 +65,8 @@ Demandez a votre binôme de créer un article sur l'application (cf. level 1)
 3. Avoir une redirection visible c'est pas très "propre" comme attaque.
 Faites donc en sorte de masquer cette attaque pour qu'elle soit invisible à l'utilisateur. 3 points
 
-Bonus : si l'on change la route pour supprimer un article par : https://xss-csrf-tp.herokuapp.com/articles/delete?id=x
-et que notre application est une API REST avec serialisation JSON. 
-Donner le code pdu formulaire permettant d'envoyer un petit objet JSON comme suit :
+Bonus : si notre application est une API REST avec serialisation JSON. 
+Donner le code du formulaire permettant d'envoyer un petit objet JSON comme suit :
 ```json
-{ account: id }
+{ "account": 4 }
 ```
