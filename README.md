@@ -4,6 +4,7 @@ Le cours est disponible ici : https://xsslearner.herokuapp.com/
 
 Prérequis :
  - git
+ - firefox
  - heroku [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 Pour réaliser ce tp, il vous est demandé de forker ce repository dans votre espace github.
