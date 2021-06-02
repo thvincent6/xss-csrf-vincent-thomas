@@ -6,7 +6,7 @@ Prérequis :
  - heroku [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 Pour realiser ce tp, il vous est demande de forker ce repository dans votre espace github.
-fork-project.jpg<img width="397" alt="image" src="https://user-images.githubusercontent.com/57868321/120502142-780b2480-c3c2-11eb-9b45-9bfcf2790067.png">
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/57868321/120502142-780b2480-c3c2-11eb-9b45-9bfcf2790067.png">
 
 C'est dans ce nouveau repo que vous travaillerez. 
 C'est egalement le lien de ce nouveau repo que vous devrez nous renvoyer pour etre corrige.
