@@ -23,6 +23,19 @@ Tout au long du TP, des questions vous seront posées, merci de créer un markdo
 ```
 touch reponses-nom-prenom.md
 ```
+## Initiliation :
+
+Executez ces commandes elle vous permettron de monter un serveur Heroku très rapidement (vous en avez besoin pour XSS => Level 2 Q5 & LEVEL 3 Q2 et pour la partie CSRF)
+
+```zsh
+cd csrf
+git init
+git add .
+git commit -m “deploying on heroku” 
+heroku login 
+heroku apps:create my-malicious-website-<nom> // exemple my-malicious-website-restoy
+git push heroku main
+```
 
 ## Partie 1 - XSS - 13 points
 
@@ -35,31 +48,24 @@ Commencez par le niveau 1 :
 1. Essayez d'injecter du code sans passer par un formulaire.  2 points
 
 ### Level 2 : 7 points
+
+(Ecrire dans le compte rendu les différents scripts injectés)
 1. Injectez dans le formulaire de creation d'article (a droite) un script permettant d'afficher une alerte. 1 point
 2. Pourquoi la balise script ne fonctionne pas ? 2 points 
 3. Comment les donnees en base sont récupérées sur la page ? 1 point
-4. Essayez de faire une injection XSS qui bloque totalement le bon fonctionnement du site il y a plusieurs réponses possibles. 3 points
-5. Essayez de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible. Essayez de le faire de facon invisible  2 points
-(Ecrire dans le compte rendu le script injecté)
+4. Essayez de faire une injection XSS qui bloque totalement le bon fonctionnement du site il y a plusieurs réponses possibles. 2 points
+5. Essayez de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku. Essayez de le faire de facon invisible  1 points
 
 ### Level 3 : 4 points
 
 1. Rusez pour bypass le sanitizer 2 points
 2. Faire un keylogger simple en js qui appelle le lien sur heroku  2 points
+
 ## Partie 2 - CSRF - 7 points
 
 Trouvez un binôme de travail. Vous allez respectivement vous attaquer l'un l'autre.
 
-```zsh
-cd csrf
-git init
-git add .
-git commit -m “deploying on heroku” 
-heroku login 
-heroku apps:create my-malicious-website-<nom> // exemple my-malicious-website-restoy
-git push heroku main
-```
-Demandez a votre binôme de créer un article sur l'application (cf. level 1)
+Demandez a votre binôme de créer un article sur l'application (cf. level 2)
 
 1. Avoir un site heroku fonctionnel. 2 points
 2. Montez une attaque CSRF grâce à un formulaire. hint : https://xss-csrf-tp.herokuapp.com/articles/delete 2 points
