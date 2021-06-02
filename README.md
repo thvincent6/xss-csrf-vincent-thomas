@@ -6,10 +6,12 @@ Prérequis :
  - heroku [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 Pour realiser ce tp, il vous est demande de forker ce repository dans votre espace github.
+fork-project.jpg<img width="397" alt="image" src="https://user-images.githubusercontent.com/57868321/120502142-780b2480-c3c2-11eb-9b45-9bfcf2790067.png">
+
 C'est dans ce nouveau repo que vous travaillerez. 
 C'est egalement le lien de ce nouveau repo que vous devrez nous renvoyer pour etre corrige.
 Merci de bien penser a laisser le repo en public sinon nous ne pourrons vous corriger.
-Merci de renommer le projet comme suit : `xss-csrf-NOM-PRENOM`
+Merci de renommer le projet comme suit : `xss-csrf-nom-prenom`
 
 Ce repository est compose :
  - d'un README, votre guideline et sujet de TP.
@@ -18,7 +20,7 @@ Ce repository est compose :
 
 Tout au long du TP, des questions vous seront posees, merci de creer un markdown comme suit : 
 ```
-touch reponses-NOM-PRENOM.md
+touch reponses-nom-prenom.md
 ```
 
 ## Partie 1 - XSS - 13 points
