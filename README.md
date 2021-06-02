@@ -26,7 +26,7 @@ touch reponses-nom-prenom.md
 ## Partie 1 - XSS - 13 points
 
 Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et créez vous un compte.
-Pour se créer un compte : entrer juste un user, votre prenom de preference.
+Pour se créer un compte : entrez juste un user, votre prenom de preference.
 
 ### Level 1 : 2 points
 
