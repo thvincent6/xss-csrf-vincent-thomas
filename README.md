@@ -47,7 +47,7 @@ Commencez par le niveau 1 :
 
 ## Partie 2 - CSRF - 7 points
 
-Trouvez un binome de travail. Vous allez respectivement vous attaquer l'un l'autre.
+Trouvez un binôme de travail. Vous allez respectivement vous attaquer l'un l'autre.
 
 ```zsh
 cd csrf
@@ -58,10 +58,16 @@ heroku login
 heroku apps:create my-malicious-website-<nom> // exemple my-malicious-website-restoy
 git push heroku main
 ```
-Demandez a votre binome de creer un article sur l'application (cf. level 1)
+Demandez a votre binôme de créer un article sur l'application (cf. level 1)
 
 1. Avoir un site heroku fonctionnel. 2 points
 2. Monter une attaque CSRF grâce à un formulaire. hint : https://xss-csrf-tp.herokuapp.com/articles/delete 2 points
 3. Avoir une redirection visible c'est pas très "propre" comme attaque.
 Faites donc en sorte de masquer cette attaque pour qu'elle soit invisible à l'utilisateur. 3 points
-  
+
+Bonus : si l'on change la route pour supprimer un article par : https://xss-csrf-tp.herokuapp.com/articles/delete?id=x
+et que notre application est une API REST avec serialisation JSON. 
+Donner le code pdu formulaire permettant d'envoyer un petit objet JSON comme suit :
+```json
+{ account: id }
+```
