@@ -1,33 +1,32 @@
 # TP XSS CSRF
-Organisateurs : Restoy Esteban, Janvier Victor, Coutard Antoine et Demourgues Lise. 
+Organisateurs : Restoy Esteban, Janvier Victor, Coutard Antoine et Demourgues Lise.
 Le cours est disponible ici : https://xsslearner.herokuapp.com/
 
 Prérequis :
  - git
  - heroku [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
-Pour realiser ce tp, il vous est demande de forker ce repository dans votre espace github.
+Pour réaliser ce tp, il vous est demandé de forker ce repository dans votre espace github.
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/57868321/120502142-780b2480-c3c2-11eb-9b45-9bfcf2790067.png">
 
 C'est dans ce nouveau repo que vous travaillerez. 
-C'est egalement le lien de ce nouveau repo que vous devrez nous renvoyer pour etre corrige.
-Merci de bien penser a laisser le repo en public sinon nous ne pourrons vous corriger.
+C'est également le lien de ce nouveau repo que vous devrez nous renvoyer pour être corrigé.
+Merci de bien penser à laisser le repo en public sinon nous ne pourrons vous corriger.
 Merci de renommer le projet comme suit : `xss-csrf-nom-prenom`
 
-Ce repository est compose :
+Ce repository est composé :
  - d'un README, votre guideline et sujet de TP.
- - d'un dossier xss
  - d'un dossier csrf
 
-Tout au long du TP, des questions vous seront posees, merci de creer un markdown comme suit : 
+Tout au long du TP, des questions vous seront posées, merci de créer un markdown comme suit : 
 ```
 touch reponses-nom-prenom.md
 ```
 
 ## Partie 1 - XSS - 13 points
 
-Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et creez vous un compte.
-Pour se creer un compte entrer juste un user, votre prenom de preference.
+Rendez-vous sur l'application suivante https://xss-csrf-tp.herokuapp.com/ et créez vous un compte.
+Pour se créer un compte : entrer juste un user, votre prenom de preference.
 
 ### Level 1 : 2 points
 
