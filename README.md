@@ -24,15 +24,6 @@ touch reponses-nom-prenom.md
 ```
 
 ## Partie 1 - XSS - 13 points
-```
-cd xss 
-git init 
-git add .
-git commit -m "deploy to heroku"
-heroku login 
-heroku apps:create my-malicious-website-<nom> exemple my-malicious-website-restoy
-git push heroku main
-```
 ### Level 1 : 5 points
 
 //to do ecrire le sujet
@@ -76,5 +67,5 @@ N'oubliez pas d'insérer des données à chaque fois pour que vous puissiez voir
 2. Monter une attaque CSRF qui permet de rediriger sur : "<<URL>>" grâce à un formulaire (2 points)
 
 3. Avoir une redirection visible c'est pas très "propre" comme attaque.
-Faites donc en sorte de masquer cette redirection pour que l'utilisateur ait l'impression de rester sur votre site malicieux.  (3 points)
+Faites donc en sorte de masquer cette redirection pour que l'utilisateur ait l'impression de rester sur votre site malicieux. (3 points)
   
