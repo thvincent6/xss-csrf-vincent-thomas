@@ -39,39 +39,29 @@ Commencez par le niveau 1 :
 3. Comment les donnes en base sont récupérées sur la page 1 point
 4. Essayer de faire une Injection XSS qui bloque totalement le bon fonctionnement du site ils y a plusieurs réponse possible. 3 points
 5. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible essayer de le faire de facon invisible  2 points
-
-
-
 (Ecrire dans le compte rendu le script injecté)
-
-
-
-1. Essayer d'injecter du code sans passer par un formulaire.  1 point 
-1. Essayer de récupérer la session de l'utilisateur via une injection xss et de les envoyer sur heroku la faille est vraiment visible, essayer de la camoufler 3 points
 
 ### Level 3 : 4 points
 
 1. Rusez pour bypass le sanitizer 2 points
 
-
 ## Partie 2 - CSRF - 7 points
 
-```
+Trouvez un binome de travail. Vous allez respectivement vous attaquer l'un l'autre.
+
+```zsh
 cd csrf
 git init
 git add .
 git commit -m “deploying on heroku” 
 heroku login 
-heroku apps:create my-malicious-website-<nom> exemple my-malicious-website-restoy
+heroku apps:create my-malicious-website-<nom> // exemple my-malicious-website-restoy
 git push heroku main
 ```
+Demandez a votre binome de creer un article sur l'application (cf. level 1)
 
-N'oubliez pas d'insérer des données à chaque fois pour que vous puissiez voir si votre attaque fonctionne car la route que vous allez appeler ne fais que reset la base de donnée à l'état d'origine.
-
-1. Avoir un site heroku fonctionnel (2 points)
-
-2. Monter une attaque CSRF qui permet de rediriger sur : "<<URL>>" grâce à un formulaire (2 points)
-
+1. Avoir un site heroku fonctionnel. 2 points
+2. Monter une attaque CSRF grâce à un formulaire. hint : https://xss-csrf-tp.herokuapp.com/articles/delete 2 points
 3. Avoir une redirection visible c'est pas très "propre" comme attaque.
-Faites donc en sorte de masquer cette redirection pour que l'utilisateur ait l'impression de rester sur votre site malicieux. (3 points)
+Faites donc en sorte de masquer cette attaque pour qu'elle soit invisible à l'utilisateur. 3 points
   
