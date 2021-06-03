@@ -23,7 +23,7 @@ Tout au long du TP, des questions vous seront posées, merci de créer un markdo
 ```
 touch reponses-nom-prenom.md
 ```
-## Initiliation :
+## Initialisation :
 
 Executez ces commandes elle vous permettron de monter un serveur Heroku très rapidement (vous en avez besoin pour XSS => Level 2 Q5 & LEVEL 3 Q2 et pour la partie CSRF)
 
